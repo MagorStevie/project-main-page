@@ -77,7 +77,7 @@ h1{
     margin: 10px;
 }
 .osvetim-b{
-    background-image: url(osvetim.jpeg);
+    background-image: url(pictures/osvetim.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ h1{
     position: relative;
 }
 .normandie-b{
-    background-image: url(vylodneni_v_normandii.jpeg);
+    background-image: url(pictures/vylodneni_v_normandii.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -97,7 +97,7 @@ h1{
     position: relative;
 }
 .hirosima_nagasaki-b{
-    background-image: url(hirosima_nagasaki.jpg);
+    background-image: url(pictures/hirosima_nagasaki.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -107,7 +107,7 @@ h1{
     position: relative;
 }
 .operace_anthropoid-b{
-    background-image: url(operace_anthropoid.jpg);
+    background-image: url(pictures/operace_anthropoid.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -117,7 +117,87 @@ h1{
     position: relative;
 }
 .nicholas_winton-b{
-    background-image: url(nicholas_winton.jpeg);
+    background-image: url(pictures/nicholas_winton.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.emil_hacha-b{
+    background-image: url(pictures/emil_hacha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.pearl_harbor-b{
+    background-image: url(pictures/pearl_harbor.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.operace_barbarossa-b{
+    background-image: url(pictures/operace_barbarossa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.terezin-b{
+    background-image: url(pictures/terezin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.benito_mussolini-b{
+    background-image: url(pictures/benito_mussolini.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.heydrichiáda-b{
+    background-image: url(pictures/heydrichiáda.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.ravensbrück-b{
+    background-image: url(pictures/ravensbrück.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.churchill-b{
+    background-image: url(pictures/churchill.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
