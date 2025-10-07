@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,10 +7,14 @@
 body{
     font-size: 20px;
     background-color: rgb(231, 67, 67);
+    font-family: 'Quintessential', serif;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 h1{
     display: flex;
-    font-size: 55px;
+    font-size: 60px;
     height: 7vh;
     width: 100%;
     justify-content: center;
@@ -25,11 +30,10 @@ h1{
     z-index: 99999;
 }
 .home_button{
-    width: 50px;
+    width: auto;
+    height: 100%;
     display: flex;
     position: absolute;
-    margin-left: 5px;
-    margin-top: 5px;
     cursor: pointer;
 }
 .card{
@@ -39,10 +43,11 @@ h1{
     display: flex;
     color: white;
     border-radius: 50px;
+    transition: 0.75s;
 }
 .card_by2{
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,8 +56,8 @@ h1{
     max-width: 100%;
     height: 60px;
     display: flex;
+    align-items: center;
     font-size: 40px;
-    padding-top: 5px;
     padding-left: 20px;
     background-color: red;
     border-radius: 40px;
@@ -68,13 +73,24 @@ h1{
     display: flex;
     border-radius: 20px;
     padding: 7px;
-    width: 20%;
+    width: 15%;
     background-color: rgb(112, 108, 108);
     position: absolute;
     border: white 3px solid;
     bottom: 0;
     right: 0;
     margin: 10px;
+    transition: 0.75s;
+}
+.page_button:hover{
+    width: 20%;
+    font-size: 40px;
+    transition: 0.75s;
+}
+.card:hover{
+    width: 40%;
+    height: 90%;
+    transition: 0.75s;
 }
 .osvetim-b{
     background-image: url(pictures/osvetim.jpeg);
@@ -90,7 +106,7 @@ h1{
     background-image: url(pictures/vylodneni_v_normandii.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     width: 100%;
     border-radius: 40px;
     border: black 5px solid;
@@ -182,7 +198,7 @@ h1{
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    border-radius: 40px;
+    border-radius: 40px; 
     border: black 5px solid;
     position: relative;
 }
@@ -198,6 +214,164 @@ h1{
 }
 .churchill-b{
     background-image: url(pictures/churchill.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.irena_sendler-b{
+    background-image: url(pictures/irena_sendler.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.hirohito-b{
+    background-image: url(pictures/hirohito.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.josef_gabcik-b{
+    background-image: url(pictures/josef_gabcik.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.operace_afrika-b{
+    background-image: url(pictures/operace_afrika.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.lidice-b{
+    background-image: url(pictures/lidice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.zbrojeni-b{
+    background-image: url(pictures/zbrojeni.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.osn-b{
+    background-image: url(pictures/osn.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.neville_chamberlain-b{
+    background-image: url(pictures/neville_chamberlain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.anna_frankova-b{
+    background-image: url(pictures/anna_frankova.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.italie-b{
+    background-image: url(pictures/italie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.josif_stalin-b{
+    background-image: url(pictures/josif_stalin.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.varsavske_povstani-b{
+    background-image: url(pictures/varsavske_povstani.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.oskar_schindler-b{
+    background-image: url(pictures/oskar_schindler.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.holocaust-b{
+    background-image: url(pictures/holocaust.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.rudolf_vrba-b{
+    background-image: url(pictures/rudolf_vrba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 40px;
+    border: black 5px solid;
+    position: relative;
+}
+.vaclav_moravek-b{
+    background-image: url(pictures/vaclav_moravek.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
