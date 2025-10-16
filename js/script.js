@@ -14,11 +14,18 @@ button.addEventListener("click", (e) => {
 });
 
 
-let split = SplitText.create(".text", {type: "chars ,words, lines"});
+let split = SplitText.create(".text", {
+    type: "chars, words"
+});
 
 gsap.from(split.chars, {
-    duration: 1.4,
-    y:100,
+    duration: 1.5,
+    yPercent: "random([-50, 50])",
+    rotation: "random([-10, 10])",
+    ease: "back.out",
     autoAlpha:0,
-    stragger: 0.05
+    stagger: {
+        amount: 0.5,
+        from: "random",
+    }
 });
